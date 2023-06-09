@@ -20,7 +20,7 @@ test-bpf = []
 default = []
 
 [dependencies]
-anchor-lang = { version = "0.26.0", features = ["init-if-needed"] }
+anchor-lang = { version = "^0.27.0", features = ["init-if-needed"] }
 bytemuck = "1.13.0"
 mpl-token-metadata = { version = "1.11", features = ["no-entrypoint"] }
 solana-program = "=1.14.13"
